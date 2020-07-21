@@ -1,9 +1,10 @@
 ---
 ---
-
-
 @import "{{ site.theme }}";
+/* "{{ site.theme }}" = Your theme name */
+/* Eg: @import 'jekyll-theme-cayman'; */
 
-.main-content {
-  max-width: 90rem;
+/* Your css rules goes after this */
+.page-header {
+    background: #291c20;
 }
